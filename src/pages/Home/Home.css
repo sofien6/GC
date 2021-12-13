@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@200;300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  position: relative;
+  top: 10px;
+  width: 100%;
+}
+.sectionHome {
+  width: 100%;
+  display: flex;
+  justify-items: center;
+}
+.Landing_page {
+  width: 60%;
+  margin: 0 auto;
+}
+.latest_podcast,
+.latest_radio {
+  width: 20%;
+  background-color: rgb(145, 140, 140);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+h1 {
+  font-family: "Sora", sans-serif;
+  font-size: 2rem;
+}
+.presentation {
+  position: relative;
+  top: 10px;
+  width: 60%;
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+  border-radius: 15px;
+}
+.presentation_left {
+  width: 30%;
+  height: 100%;
+  font-weight: bold;
+}
+
+.presentation_right {
+  width: 70%;
+  height: 100%;
+  padding: 40px;
+  font-family: "Sora", sans-serif;
+  font-weight: bold;
+  border-radius: 0px 15px 15px 0px;
+}
+.presentation_right:hover {
+  background-color: #ffc500;
+}
+.presentation_left-image {
+  text-align: center;
+  padding: 1rem 2rem;
+}
+.presentation_left-content {
+  padding: 1rem 2rem;
+  font-family: "Sora", sans-serif;
+}
+.presentation_left-content h1 {
+  font-size: 1.5rem;
+}
+.youtube_video {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.Nos_service {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: 10px;
+  font-family: "Sora", sans-serif;
+  padding: 2rem 1rem;
+}
+.Nos_service-title {
+  text-align: center;
+  font-weight: bold;
+}
+.Nos_service-content {
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Nos_service-svg {
+  width: 100px;
+}
+.Nos_service-svg img {
+  width: 100%;
+  height: 100%;
+}
+.Nos_service-description {
+  width: 70%;
+  height: 100%;
+}
+.Nos_service-title h1 {
+  font-weight: bold;
+}
+/******************************* Nos programme **********************************************/
+.Nos_programme {
+  width: 100%;
+  padding: 40px;
+  font-family: "Sora", sans-serif;
+}
+.Nos_programme-title {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.Nos_programme-title h1 {
+  font-weight: bold;
+  font-family: "Sora", sans-serif;
+  text-align: center;
+}
+
+.Nos_programme-programmes {
+  width: 100%;
+  display: flex;
+  padding: 50px;
+}
+.Nos_programme-programmes-parent {
+  padding: 20px;
+  box-shadow: 0px 2px 13px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px 5px 10px 5px;
+  margin: 10px;
+}
+.Nos_programme-programmes-parent:hover{
+  background-color: #ffc500;
+}
+.Nos_programme-programmes-content {
+  width: 100%;
+  height: 100%;
+}
+
+.Nos_programme-programmes-title {
+  display: flex;
+  align-items: center;
+}
+.Nos_programme-programmes-title img {
+  width: 100px;
+  padding: 20px;
+}
+/******************************* Nos Evenement **********************************************/
+
+.nos_Evenement {
+  width: 100%;
+  padding: 40px;
+}
+.nos_Evenement-title {
+  width: 100%;
+  padding: 40px;
+}
+.nos_Evenement-title h1 {
+  font-weight: bold;
+  font-family: "Sora", sans-serif;
+  text-align: center;
+}
+.nos_Evenement-cards {
+  display: flex;
+  justify-content: space-between;
+}
+.Nos_sponsor {
+  width: 100%;
+  padding: 40px;
+}
+.Nos_sponsor-title {
+  width: 100%;
+}
+.Nos_sponsor-title h1 {
+  font-weight: bold;
+  font-family: "Sora", sans-serif;
+  text-align: center;
+}
+.Nos_sponsor-image {
+  padding: 40px;
+}
+.Nos_sponsor-content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  padding: 40px;
+  align-items: center;
+}
+.Nos_sponsor-description {
+  padding: 40px;
+  width: 100%;
+  box-shadow: 0px 2px 13px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+}
+.Nos_sponsor-description:hover{
+  background-color: #ffc500;
+}
+.Nos_sponsor-description h1,
+p {
+  font-weight: bold;
+  font-family: "Sora", sans-serif;
+  text-align: center;
+}
+.Nos_Membre {
+  width: 100%;
+}
+.Nos_Membre-title {
+  width: 100%;
+  padding: 20px;
+}
+.Nos_Membre-title h1 {
+  font-weight: bold;
+  font-family: "Sora", sans-serif;
+  text-align: center;
+}
+.Nos_Memebre-description {
+  padding: 40px;
+}
+
+.Nos_Memebre-description p {
+  font-weight: bold;
+  font-family: "Sora", sans-serif;
+  text-align: center;
+  font-size: 18px;
+}
+.Nos_mombre-container-card {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.Nos_Membre-container {
+  width: 40%;
+}
+
+@media screen and (max-width: 1400px) {
+  .presentation {
+    display: block;
+  }
+  .presentation_left {
+    width: 100%;
+  }
+  .presentation_right {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1208px) {
+  h1 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .Nos_service-content {
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    display: block;
+  }
+  .Nos_service-svg {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .Nos_service-description {
+    margin: 0 auto;
+  }
+  .Nos_service-title h1 {
+    font-size: 25px;
+  }
+  .Nos_programme-title h1 {
+    font-size: 35px;
+  }
+  .Nos_programme-programmes {
+    display: block;
+  }
+  .Nos_programme-programmes-parent {
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .nos_Evenement-cards {
+    display: block;
+  }
+  .nos_Evenement-title h1 {
+    font-size: 25px;
+  }
+  .nos_Evenement-cards-parent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .nos_Evenement-cards-parent:hover{
+    background-color: #ffc500;
+  }
+  .Nos_sponsor-title h1 {
+    font-size: 25px;
+  }
+  .Nos_sponsor-content {
+    display: block;
+    width: 100%;
+  }
+  .Nos_sponsor-description {
+    padding: 40;
+    width: 100%;
+  }
+  .Nos_sponsor-description:hover{
+    background-color: #ffc500;
+  }
+  .Nos_sponsor-description h1 {
+    font-size: 25px;
+  }
+  .Nos_sponsor {
+    padding: 0;
+  }
+  .Nos_sponsor-image {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 700px) {
+  .Nos_service {
+    width: 100%;
+  }
+  .Nos_service-description {
+    width: 100%;
+  }
+  .Nos_programme-programmes-title h1 {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 595px) {
+  h1 {
+    font-size: 10px;
+  }
+  .Landing_page {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .latest_podcast,
+  .latest_radio {
+    display: none;
+  }
+}
+@media screen and (max-width: 548px) {
+  .presentation {
+    width: 100%;
+    border-radius: 0px;
+  }
+  .Nos_programme-programmes-parent {
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0px 0px 0px 0px;
+  }
+  .Nos_programme-programmes {
+    padding: 0;
+  }
+  .Nos_programme {
+    padding: 0;
+  }
+}

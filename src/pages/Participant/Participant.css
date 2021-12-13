@@ -1,0 +1,39 @@
+.title{
+	margin: 10px auto;
+	width: 60vw;
+	padding: 20px 0px;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main .card {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+label.radio {
+  display: block;
+  text-align: left;
+  padding: 15px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+label.radio+.radio {
+  margin-left: 0;
+}
+
+label.radio input {
+  margin-right: 10px;
+}

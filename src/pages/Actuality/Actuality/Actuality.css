@@ -1,0 +1,10 @@
+.Actuality_container{
+    position: relative;
+    top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.CircularIndeterminate{
+    position: relative;
+    top: 10px;
+}

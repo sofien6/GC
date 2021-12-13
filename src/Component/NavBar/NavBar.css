@@ -1,0 +1,21 @@
+.NavBar{
+    box-shadow: -1px 5px 8px 0px rgba(0,0,0,0.75);
+}
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+.navItem{
+    padding: 0.3rem 2rem;
+    margin: 0.5rem 1rem;
+}
+
+@media screen and (max-width:600px) {
+    .navItem{
+        padding: 1rem 1rem;
+        margin: 0.2rem;
+    }
+}
+@media screen and (min-width:768px) and (max-width:1208px) {
+    
+}

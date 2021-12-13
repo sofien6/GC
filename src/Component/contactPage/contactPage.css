@@ -1,0 +1,7 @@
+.emailText{
+    color: black;
+    font-weight: bolder;
+}
+.emailText:hover{
+    color: #fbb034;
+}

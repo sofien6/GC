@@ -1,0 +1,79 @@
+{
+    "data": [
+      {
+        "question": "Que fait cette fonction int f(int n) {if (n==0) return 1; return f(n-1)*n;}",
+        "choices": ["La puissance", "Factorielle", "La somme des nombres de 1 à n"],
+        "answer": "Factorielle"
+      },
+      {
+        "question": "Quelle est la meilleur façon de rechercher une valeur dans un tableau trié ?",
+        "choices": ["La recherche séquentielle", "La recherche dichotomique", "Création de listes chainées"],
+        "answer": "La recherche dichotomique"
+      },
+      {
+        "question": "Les constructeurs sont utilisés pour :",
+        "choices": ["Instancier les classes", "Construire une interface", "Libérer de l'espace mémoire"],
+        "answer": "Instancier les classes"
+      },
+      {
+        "question": "(POO) Peut-on instancier une classe abstraite ?",
+        "choices": ["Oui bien sûr", "Non impossible", "Tout dépend des attributs de la classe"],
+        "answer": "Non impossible"
+      },
+      {
+        "question": "Dans Java/Kotlin, quel mot clé permet d'accèder à la classe mère ?",
+        "choices": ["super", "mother", "this", "superclass"],
+        "answer": "super"
+      },
+      {
+        "question": "Dans le développement Android, quel est le langage de programmation recommendé par Google ?",
+        "choices": ["Java", "Kotlin", "C++", "Swift","Dart"],
+        "answer": "Dart"
+      },
+      {
+        "question": "Quel langage utiliser pour la construction d'interface sous Android ?",
+        "choices": ["HTML", "CSS", "Javascript", "Kotlin" ,"XML"],
+        "answer": "XML"
+      },
+      {
+        "question": "Avec quel moyen les composantes d'une application Android communiquent ?",
+        "choices": ["Intent", "Activity", "Service", "Broadcast Receiver"],
+        "answer": "Intent"
+      },
+      {
+        "question": "Quel container le plus adéquat pour organiser les elements de l'interface de façon vertical ?",
+        "choices": ["Relative Layout", "Linear Layout", "Constraint Layout", "Frame Layout"],
+        "answer": "Constraint Layout"
+      },
+      {
+        "question": "Pour afficher du texte dans une interface, quelle composante doit-on utiliser ?",
+        "choices": ["<p>Text</p>", "<Text></Text>", "<TextView></TextView>", "<EditText></EditText>"],
+        "answer": "<TextView></TextView>"
+      },
+      {
+        "question": "Si on veut enregistrer une chaine de caractère simple dans une application Android, quel moyen utiliser?",
+        "choices": ["Android Room", "Shared Preferences", "ArrayList", "Content Provider"],
+        "answer": "Android Room"
+      },
+      {
+        "question": "Pour accéder aux éléments de l'interface via l'activité, quelle est la fonction à utiliser?",
+        "choices": ["getElementByID", "getViewById", "findViewById", "linkToViewById"],
+        "answer": "findViewById"
+      },
+      {
+        "question": "Pourquoi séparer les chaines de caractères d'une application Android dans un seul fichier strings.xml?",
+        "choices": ["Pour simplifier le code de l'application", "Pour l'internationalisation de l'application", "Pour corriger les fautes d'orthographe."],
+        "answer": "Pour simplifier le code de l'application"
+      },
+      {
+        "question": "Dans quel répertoire se trouve les images utilisées dans une application Android?",
+        "choices": ["img", "drawable", "images", "android/img"],
+        "answer": "drawable"
+      },
+      {
+        "question": "Quelle fonction permet de gérer l'événement du clique sur un bouton dans une application Android?",
+        "choices": ["findViewById", "handleClickEvent", "setOnClickListener", "buttonClickEvent"],
+        "answer": "setOnClickListener"
+      }
+    ]
+  }

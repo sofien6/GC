@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;300&display=swap');
+
+.Card_container{
+    margin: 10px;
+    font-family: 'Sora', sans-serif;
+}
+.CardHeader{
+  font-size: 30px;
+  background-color: #fbb034 ;
+  font-family: 'Sora', sans-serif;
+
+}
+.CardMedia{
+    height: 300px;
+    padding: 20px;
+}
+
+.Typography-description{
+    font-size: 50px;
+    font-family: 'Sora', sans-serif;
+}
+.CardActions{
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: white;
+}
